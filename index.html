@@ -411,19 +411,22 @@ $(document).ready(function() {
 				// overLayer 에 이미지 요소 삽입
 				// 이미지태그의 src값은 내가 클릭한 a태그의 href값과 동일
 				// a태그의 링크속성 제한
-					$(".workboxIn .short a").click(function(){
-						event.preventDefault(); // a 의 기본속성 무효화
-						$("#glayLayer").show();
-						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='#' class='shortcuts'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
-					});
-
 
 					$(".workboxIn .closebtn a").click(function(){
 						event.preventDefault(); // a 의 기본속성 무효화
 						$("#glayLayer").show();
 						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='#' class='close'>x close project</a>");
 						return false;
+						
 					});
+					
+					$(".workboxIn .short a").click(function(){
+						event.preventDefault(); // a 의 기본속성 무효화
+						$("#glayLayer").show();
+						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='https://kimsunjoo.github.io/kaif/' class='shortcuts'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
+					});
+
+					
 		});
 </script>
 </body>
