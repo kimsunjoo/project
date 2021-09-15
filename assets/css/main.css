@@ -2187,9 +2187,9 @@ input, select, textarea {
 		 #profile > header .ptxt1 >	.ptext1In li{font-size: 20px; line-height: 1.5;margin-bottom: 5px; font-variant: small-caps; margin-bottom: 10px;}
 		 #profile > header .ptxt1 >	.ptext1In li:first-child{font-weight: 500;}
 		 #profile > header	.ptxt1 > .ptext1In li .birth{font-size: 20px; font-weight: 400;}
-		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 28px; font-weight:400;}
-		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.9; letter-spacing: 3px; margin-bottom: -0.5px;}
-		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 18px; margin-bottom: -5px; font-variant: normal;}
+		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 28px;  font-weight:400;}
+		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.5; letter-spacing: 3px; margin-bottom: -0.5px;}
+		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 18px; margin-bottom: 5px; font-variant: normal;}
 
 		 #profile > header .ptx2 {float: left; width: 450px;color: #fff; font-size: 15px; line-height: 2; letter-spacing: 3px; margin-top: 100px; }	
 		 #profile > header .ptx2 > .ptext1In li{ margin-bottom: 10px;}
