@@ -86,8 +86,6 @@
 									<ul class="ptext1In"> 
 										<li class="fadeinbottom"><h4>education</h4>
 											<ul>
-												<li class="fadeinbottom"><strong>2014</strong>
-												노라노디자인 아카데미 교육과정 수료</li class="fadeinbottom">
 												<li><strong>2015</strong>한국조형예술고등학교 졸업
 												</li>
 												<li class="fadeinbottom"><strong>2021</strong>부산IT교육센터 교육과정 수료</li>
@@ -162,8 +160,8 @@
 										</div>
 										</a>
 									</li>
-									<li class="closebtn">
-										<a href="images/daon1.jpg">
+									<li class="closebtn" >
+										<a href="images/daon1.jpg" >
 										<img src="images/work1-2.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -228,8 +226,8 @@
 										</div>
 									</a>
 									</li>
-									<li class="shortif">
-										<a href="images/mordernif.jpg">
+									<li class="short">
+										<a href="images/mordernif.jpg" onclick='newPage()'>
 										<img src="images/work3-2.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -416,14 +414,9 @@ $(document).ready(function() {
 					$(".workboxIn .short a").click(function(){
 						event.preventDefault(); // a 의 기본속성 무효화
 						$("#glayLayer").show();
-						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='https://smartstore.naver.com/kimsunjoo' class='shortcuts'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
+						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='#' class='shortcuts'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
 					});
 
-					$(".workboxIn .shortif a").click(function(){
-						event.preventDefault(); // a 의 기본속성 무효화
-						$("#glayLayer").show();
-						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='https://smartstore.naver.com/kimsunjoo' class='shortmore'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
-					});
 
 					$(".workboxIn .closebtn a").click(function(){
 						event.preventDefault(); // a 의 기본속성 무효화
