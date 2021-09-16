@@ -193,7 +193,7 @@
 										</div>
 										</a>
 									</li>
-									<li class="short">
+									<li class="short link1">
 										<a href="images/kiaf2.jpg">
 										<img src="images/work2-2.jpg" alt="">
 										<div class="dark">
@@ -201,7 +201,7 @@
 										</div>
 									</a>
 									</li>
-									<li class="short">
+									<li class="short link2">
 										<a href="images/korea.jpg">
 										<img src="images/work2-3.jpg" alt="">
 										<div class="dark">
@@ -218,7 +218,7 @@
 							<p>[민음사, 모던이프, 뚜레쥬르]</p>
 							<div class="workbox">
 								<ul class="workboxIn">
-									<li class="short">
+									<li class="short link3">
 										<a href="images/min.jpg">
 										<img src="images/work3-1.jpg" alt="">
 										<div class="dark">
@@ -226,7 +226,7 @@
 										</div>
 									</a>
 									</li>
-									<li class="short">
+									<li class="short link4">
 										<a href="images/mordernif.jpg" onclick='newPage()'>
 										<img src="images/work3-2.jpg" alt="">
 										<div class="dark">
@@ -234,7 +234,7 @@
 										</div>
 									</a>
 									</li>
-									<li class="closebtn">
+									<li class="closebtn link5">
 										<a href="images/tous.jpg">
 										<img src="images/work3-3.jpg" alt="">
 										<div class="dark">
@@ -319,8 +319,23 @@
 				</ul>
 			</div>
 
+			<!-- 이미지만 보이면 되는 팝업-->
+      <div id="glayLayer">
+        <div id="overLayer">
+          <img src="" alt="">
+          <a href='#' class='close'>x</a>
+        </div>
+      </div>
 
-<!-- Scripts -->
+      <!-- 링크가 있는 팝업 -->
+      <div id="glayLayer2">
+        <div id="overLayer2">
+          <img src="" alt="">
+          <a href='#' class='shortcuts' target='_blank'>site shortcuts</a>
+          <a href='#' class='close'>x</a>
+        </div>
+      </div>
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
@@ -360,6 +375,7 @@ $(document).ready(function() {
 });
 });
 
+
 		function isElementUnderBottom(elem, triggerDiff) {
 			const { top } = elem.getBoundingClientRect();
 			const { innerHeight } = window;
@@ -397,35 +413,46 @@ $(document).ready(function() {
 						.start();
 
 
-				// body에 glayLayer , overLayer 요소 추가
-				$("body").append("<div id='glayLayer'></div><div id='overLayer'></div>");
-				
-				// 모달윈도우 닫기 > 닫기버튼이나 영역을 클릭해도 닫기 가능 > glayLayer, overLayer hide
-				$("#glayLayer, #overLayer, .close").click(function(){
-						event.preventDefault(); // a 의 기본속성 무효화
-						$("#glayLayer").hide();
-						$("#overLayer").hide();
+        /* 스크립트 수정 */
+        $(".workboxIn .closebtn").click(function(){ // 이미지만 보이면 되는 팝업의 이름
+          var img = $(this).find('a').attr("href");
+          $("#glayLayer").show();
+          $("#overLayer").show().find("img").attr("src",img);
+          return false;
+          
+        });
+
+        $(".workboxIn .short").click(function(){ // 링크버튼이 있는 경우
+          var img = $(this).find('a').attr("href");
+          var link = $("#overLayer2").find(".shortcuts"); 
+
+          //아래에서 각각 이동될 곳
+          if($(this).hasClass('link1') == true){
+            link.attr("href","https://kimsunjoo.github.io/kaif/");
+          }else if($(this).hasClass('link2') == true){
+            link.attr("href","https://kimsunjoo.github.io/korea/");
+          }else if($(this).hasClass('link3') == true){
+            link.attr("href","https://blog.naver.com/sunjoojoo96");
+          }else if($(this).hasClass('link4') == true){
+            link.attr("href","https://smartstore.naver.com/kimsunjoo");
+          }
+
+          $("#glayLayer2").show();
+          $("#overLayer2").show().find("img").attr("src",img);
+          return false;
+          
+        });
+
+
+				$(".close").click(function(){ // 닫기는 공통으로 사용
+						event.preventDefault();
+						$("#glayLayer, #glayLayer2").hide();
+						$("#overLayer, #overLayer2").hide();
+            
+            return false;
 					})
-				
-				// 모달윈도우 열기 > .workboxIn a 클릭 > glayLayer, overLayer  show 
-				// overLayer 에 이미지 요소 삽입
-				// 이미지태그의 src값은 내가 클릭한 a태그의 href값과 동일
-				// a태그의 링크속성 제한
 
-					$(".workboxIn .closebtn a").click(function(){
-						event.preventDefault(); // a 의 기본속성 무효화
-						$("#glayLayer").show();
-						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='#' class='close'>x close project</a>");
-						return false;
-						
-					});
-					
-					$(".workboxIn .short a").click(function(){
-						event.preventDefault(); // a 의 기본속성 무효화
-						$("#glayLayer").show();
-						$("#overLayer").show().html("<img src='" + $(this).attr("href") +"' /><a href='https://kimsunjoo.github.io/kaif/' class='shortcuts'>site shortcuts ></a> <a href='#' class='close'>x close project</a>");
-					});
-
+			
 					
 		});
 </script>
