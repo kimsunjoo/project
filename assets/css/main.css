@@ -409,7 +409,7 @@ input, select, textarea {
  }
 
  h3, h4, h5, h6 {
-	 font-size: 1.25em;
+	 font-size: 0.7em;
 	 letter-spacing: -0.015em;
  }
 
@@ -518,19 +518,19 @@ input, select, textarea {
  }
 
  form ::-webkit-input-placeholder {
-	 color: #999;
+	 color: #fff;
  }
 
  form :-moz-placeholder {
-	 color: #999;
+	 color: #fff;
  }
 
  form ::-moz-placeholder {
-	 color: #999;
+	 color: #fff;
  }
 
  form :-ms-input-placeholder {
-	 color: #999;
+	 color: #fff;
  }
 
 /* Section/Article */
@@ -1038,7 +1038,7 @@ input, select, textarea {
 				 position: absolute;
 				 top: 30px;
 				 left: 0;
-				 background-image: url("images/mainbg.png"); 
+				 background-image: url("images/mainbg_yello.jpg"); 
 				 background-repeat: no-repeat;
 				 background-position: 28px 0px;
 				 background-size: 1444px 750px;
@@ -1055,9 +1055,9 @@ input, select, textarea {
 				 font-size: 150px;
 			 }
 			 #main > .panel.intro header .hometit P{
-				 font-size: 24PX; color: #e27272; font-weight: 300; letter-spacing: 3px; margin-left: -185px; position: absolute; top: 90px; left: 0;}
+				 font-size: 24PX; color: #252525; font-weight: 300; letter-spacing: 3px; margin-left: -185px; position: absolute; top: 90px; left: 0;}
 			 #main > .panel.intro header .hometxt{ float: left; margin-top: 150px;
-				 margin-left: 30px;	font-weight: 400; font-size: 18px; color: #fff;
+				 margin-left: 30px;	font-weight: 400; font-size: 18px; color: #252525;
 				line-height: 2; letter-spacing: 3px;
 			 } 
 
@@ -1069,14 +1069,14 @@ input, select, textarea {
 				 height: 100%;
 				 padding: 20px;
 				 }
-				 #typeStyle span {color: #fff; font-size: 25px;  width: 600px; letter-spacing: 3px;}
+				 #typeStyle span {color: #252525; font-size: 25px;  width: 600px; letter-spacing: 3px;}
 				 #typeStyle{white-space: pre-wrap;}
 
 			 #main > .panel.intro header .ps{width: 300px; height: 100px;  margin-left: 530px; margin-top:180px;}
-			 #main > .panel.intro header .ps span{color: #e27272; font-size: 36px; font-weight: 400; font-variant: small-caps; letter-spacing:3px;}
-			 #main > .panel.intro header .ps strong{color: #e27272; font-size: 25px;
+			 #main > .panel.intro header .ps span{color: #252525; font-size: 36px; font-weight: 400; font-variant: small-caps; letter-spacing:3px;}
+			 #main > .panel.intro header .ps strong{color: #252525; font-size: 25px;
 				 font-weight: 400; font-variant: small-caps; letter-spacing:3px;}
-				 #main > .panel.intro header .ps p{color: #fff;  font-size: 14px; letter-spacing: 3px; margin-top: -18px;}
+				 #main > .panel.intro header .ps p{color: #626262;  font-size: 14px; letter-spacing: 3px; margin-top: -18px;}
 
 		 /* profile */
 		 #profile {
@@ -1089,30 +1089,31 @@ input, select, textarea {
 		 ;}
 
 		 #profile > header .profiletxt{
-			 padding: 40px; background-color: #283231; height: 890px; 
+			 padding: 40px; background-image: url(images/mainbg_yelloBIG.jpg); height: 890px; 
 		 }
 		 
 		 #profile > header .profiletxt .ptxt1{letter-spacing: 2px;
-			 color: #e27272; width: 400px; float: left; margin-left: 30px;}
+			 color: #252525; width: 400px; float: left; margin-left: 30px;}
 			 #profile > header .ptxt1  img{height:180px; margin-top: 20px;}
  
-		 #profile > header .ptxt1 >	.ptext1In li{font-size: 18px; line-height: 1.5;margin-bottom: 5px; font-variant: small-caps; margin-bottom: 10px;}
+	
+		 #profile > header .ptxt1 >	.ptext1In li{font-size: 15px; line-height: 1.5; font-variant: small-caps;}
 		 #profile > header .ptxt1 >	.ptext1In li:first-child{font-weight: 500;}
-		 #profile > header	.ptxt1 > .ptext1In li .birth{font-size: 18px; font-weight: 400;}
-		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 26px;  font-weight:400;}
-		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.5; letter-spacing: 3px; margin-bottom: -0.5px;}
-		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 16px; margin-bottom: 5px; font-variant: normal;}
+		 #profile > header .ptxt1 > span{color: #FFF; font-size: 30px; }
+		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 20px;  font-weight:400; color: #fff;}
+		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.5; letter-spacing: 3px; margin-bottom: 20px;}
+		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 16px; margin-bottom: 20px; font-variant: normal;}
 
-		 #profile > header .ptx2 {float: left; width: 450px;color: #fff; font-size: 15px; line-height: 2; letter-spacing: 3px; margin-top: 100px; }	
+		 #profile > header .ptx2 {float: left; width: 400px;color: #626262; font-size: 12px; line-height: 2; letter-spacing: 3px; margin-top: 150px; margin-left: 100px;}	
 		 #profile > header .ptx2 > .ptext1In li{ margin-bottom: 10px;}
-		 #profile > header .ptx2 > .ptext1In ul > li{margin-bottom: 5px;}
-		 #profile > header .ptx2 > .ptext1In h4{font-size: 24px; font-weight: 400; color: #e27272; font-variant: small-caps; letter-spacing: 3px;}
+		 #profile > header .ptx2 > .ptext1In ul > li{margin-bottom: 3px;}
+		 #profile > header .ptx2 > .ptext1In h4{font-size: 20px; font-weight: 500; color: #252525; font-variant: small-caps; letter-spacing: 3px;}
 		 #profile > header .ptx2 > .ptext1In  strong{margin-right: 30px; font-weight: 300; letter-spacing: 3px;}
 
-		 #profile > header .ptx3{float: left; width: 450px;color: #fff; font-size: 15px; line-height: 2; letter-spacing: 3px; margin-top: 100px; }
+		 #profile > header .ptx3{float: left; width: 350px;color: #626262; font-size: 12px; line-height: 2; letter-spacing: 3px; margin-top: 150px; }
 		 #profile > header .ptx3 > .ptext1In li{ margin-bottom: 15px;}
 		 #profile > header .ptx3 > .ptext1In ul > li{margin-bottom: 10px;}
-		 #profile > header .ptx3 > .ptext1In h4{font-size: 24px; font-weight: 400; color: #e27272; font-variant: small-caps; letter-spacing: 3px;}
+		 #profile > header .ptx3 > .ptext1In h4{font-size: 20px; font-weight: 500; color: #524e4e; font-variant: small-caps; letter-spacing: 3px;}
 		 #profile > header .ptx3 > .ptext1In img{width: 65%; height: 65%;}
 
 		 .fadeinbottom{   
@@ -1129,8 +1130,8 @@ input, select, textarea {
 	 #portfolio{letter-spacing: 3px; height: 2150px; margin-left: 50px; margin-top: 50px;}
 	 #portfolio section, article {margin-bottom: 10px; margin-left: px;}
 	 #portfolio section a{text-decoration: none; color: #fff;}
-	 #portfolio > header h2{color: #e27272; font-weight: 500; font-weight: 30px; margin-bottom: 10px;}
-	 #portfolio > header h3{color: #e27272; font-weight: 500; font-size: 40px; font-variant: small-caps; letter-spacing: 5px;}
+	 #portfolio > header h2{color: #252525; font-weight: 500; font-weight: 30px; margin-bottom: 10px;}
+	 #portfolio > header h3{color: #252525; font-weight: 500; font-size: 40px; font-variant: small-caps; letter-spacing: 5px;}
 	 #portfolio > section h4{color: #322f2f; font-weight: 500; font-size: 22px; margin-bottom: -15px; letter-spacing: 3px;}
 	 #portfolio > section p{color: #696e6d;font-weight: 300; font-size: 19px; margin-bottom: 50px; }
 
@@ -1188,9 +1189,9 @@ input, select, textarea {
 
 
 
-#overLayer::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer::-webkit-scrollbar-thumb { background-color: #e27272; /*스크롤바의 색상*/ 
+#overLayer::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer::-webkit-scrollbar-thumb { background-color: #f5e6bf; /*스크롤바의 색상*/ 
 height: 45%;}   
-#overLayer2::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer2::-webkit-scrollbar-thumb { background-color: #e27272; /*스크롤바의 색상*/ 
+#overLayer2::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer2::-webkit-scrollbar-thumb { background-color: #f5e6bf; /*스크롤바의 색상*/ 
 	height: 45%;}  
 
 #overLayer::-webkit-scrollbar-track { background-color: #a6a89c; /*스크롤바 트랙 색상*/ }
