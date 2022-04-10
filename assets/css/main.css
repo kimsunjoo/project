@@ -1078,7 +1078,7 @@ input, select, textarea {
 		 
 		 #profile > header .profiletxt .ptxt1{letter-spacing: 2px;
 			 color: #252525; width: 400px; float: left; margin-left: 30px;}
-			 #profile > header .ptxt1  img{height:180px; margin-top: 20px;}
+			 #profile > header .ptxt1  img{height:180px; margin-top: 20px; margin-left: -50px;}
  
 	
 		 #profile > header .ptxt1 >	.ptext1In li{font-size: 15px; line-height: 1.5; font-variant: small-caps;}
