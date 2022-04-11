@@ -599,7 +599,7 @@ input, select, textarea {
 	 input[type="reset"]:hover,
 	 button:hover,
 	 .button:hover {
-		 color: #f5e6bf;
+		 color: #f1e17a;
 	 }
 
 	 input[type="button"]:active,
@@ -1021,7 +1021,7 @@ input, select, textarea {
 				 position: absolute;
 				 top: 30px;
 				 left: 0;
-				 background-image: url("images/mainbg_yello.jpg"); 
+				 background-image: url("images/mainbg_black.jpg"); 
 				 background-repeat: no-repeat;
 				 background-position: 28px 0px;
 				 background-size: 1444px 750px;
@@ -1038,7 +1038,7 @@ input, select, textarea {
 				 font-size: 150px;
 			 }
 			 #main > .panel.intro header .hometit P{
-				 font-size: 16PX; color: #252525; font-weight: 400; letter-spacing: 3px; margin-left: -170px; position: absolute; top: 90px; left: 0;}
+				 font-size: 16PX; color: #fff; font-weight: 400; letter-spacing: 3px; margin-left: -170px; position: absolute; top: 90px; left: 0;}
 			 #main > .panel.intro header .hometxt{ float: left; margin-top: 150px;
 				 margin-left: 30px;	font-weight: 500; font-size: 10px; color: #252525;
 				line-height: 2; letter-spacing: 3px;
@@ -1052,7 +1052,7 @@ input, select, textarea {
 				 height: 100%;
 				 padding: 20px;
 				 }
-				 #typeStyle span {color: #252525; font-size: 17px;  width: 600px; letter-spacing: 3px; font-weight: 400;}
+				 #typeStyle span {color: #fff; font-size: 17px;  width: 600px; letter-spacing: 3px; font-weight: 400;}
 				 #typeStyle{white-space: pre-wrap;}
 				 #typeStyle strong{font-weight: 500;}
 
@@ -1136,9 +1136,9 @@ input, select, textarea {
 	 #e-mail img{width: 100%; height: 945px;}
 	 .ewarp{
 		 position: absolute; top: 150px; left: 90px;
-		 width: 90%;}
-	 #e-mail .ewarp h2{color: #252525; margin-bottom: 350px; text-align: center; margin-top: 300px ; font-size: 35px; font-weight: 600; letter-spacing: 5px;}
-	 #e-mail .ewarp .emailboxIn{background-color: none; width: 12%;float: right;}
+		 width: 75%; margin-left: 100px;}
+	 #e-mail .ewarp h2{color: #fff; margin-bottom: 350px; text-align: center; margin-top: 300px ; font-size: 35px; font-weight: 600; letter-spacing: 5px;}
+	 #e-mail .ewarp .emailboxIn{background-color: none; width: 200px;float: right; }
 
 	 .fadeinleft{   
 		 opacity:0;
