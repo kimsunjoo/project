@@ -35,8 +35,8 @@
 						<header>
 							<div class="homeIn">
 								<div class="hometit">
-								<h1><img src="images/maintxt.png" alt="메인텍스트이미지"></h1>
-								<P>[두루 : 주]</P>
+								<!-- <h1><img src="images/maintxt.png" alt="메인텍스트이미지"></h1>
+								<P>[두루 : 주]</P> -->
 							</div><!--.hometit-->
 							<div id="style">
 								<div id="typeStyle"></div>
@@ -157,8 +157,8 @@
 						</header>
 
 						<section>
-							<h4>PORTFOLIO (CI/BI·LOGO·PACKAGE)</h4>
-							<p>[일월의 숲, 몸빼, 백미당]</p>
+							<h4>PORTFOLIO 1</h4>
+							<p>Branding</p>
 							<div class="workbox">
 								<ul class="workboxIn">						
 									<li class="closebtn">
@@ -178,7 +178,7 @@
 										</a>
 									</li>
 									<li class="closebtn">
-										<a href="images/koreaOrganization.jpg">
+										<a href="images/games.jpg">
 										<img src="images/work1-3.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -190,8 +190,8 @@
 						</section>
 
 					<section>
-							<h4>PORTFOLIO2 (REACTIVE / WEB / MOBILE)</h4>
-							<p>[키아프아트서울, 한국패션문화산업진흥원]</p>
+							<h4>PORTFOLIO 2 </h4>
+							<p>Responsive web</p>
 							<div class="workbox">
 								<ul class="workboxIn">
 									<li class="closebtn">
@@ -223,8 +223,8 @@
 						</section>
 
 						<section>
-							<h4>PORTFOLIO3 (BROCHURE / CHARACTER)</h4>
-							<p>[다온디자인, 정직유부]</p>
+							<h4>PORTFOLIO 3</h4>
+							<p>Editorial</p>
 							<div class="workbox">
 								<ul class="workboxIn">
 									<li class="closebtn">
@@ -235,8 +235,8 @@
 										</div>
 									</a>
 									</li>
-									<li class="short link4">
-										<a href="images/daon2.jpg" onclick='newPage()'>
+									<li class="closebtn">
+										<a href="images/100.jpg" >
 										<img src="images/work3-2.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -256,8 +256,8 @@
 						</section> 
 
 						<section>
-							<h4>PORTFOLIO4 (KARD NEWS / SNS / PHOTO EDITING)</h4>
-							<p>[카드뉴스, 소셜네트워크, 여권·증명·취업·프로필]</p>
+							<h4>PORTFOLIO 4</h4>
+							<p>SNS Contents etc.</p>
 							<div class="workbox">
 								<ul class="workboxIn">
 									<li class="closebtn">
@@ -269,7 +269,7 @@
 									</a>
 									</li>
 									<li class="closebtn">
-										<a href="images/sns.jpg">
+										<a href="images/snscontent.jpg">
 										<img src="images/work4-2.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -277,7 +277,7 @@
 									</a>
 									</li>
 									<li class="closebtn">
-										<a href="images/passportphoto.jpg">
+										<a href="images/mmili.jpg">
 										<img src="images/work4-3.jpg" alt="">
 										<div class="dark">
 											<p>+</p>
@@ -402,14 +402,14 @@ $(document).ready(function() {
 						loop: true
 				});
 
-				typewriter.typeString('안녕하세요')
+				typewriter.typeString('Portfolio.')
 						.pauseFor(1500)
 						.deleteAll()
-						.typeString('두루두루 잘 하는 디자이너 ')
-						.pauseFor(500)
-						.deleteChars(0)
-						.typeString('<strong>김선주 입니다.</strong>')
-						.pauseFor(1000)
+						// .typeString('두루두루 잘 하는 디자이너 ')
+						// .pauseFor(500)
+						// .deleteChars(0)
+						// .typeString('<strong>김선주 입니다.</strong>')
+						// .pauseFor(1000)
 						.start();
 
 
@@ -433,8 +433,7 @@ $(document).ready(function() {
             link.attr("href","https://kimsunjoo.github.io/korea/");
           }else if($(this).hasClass('link3') == true){
             link.attr("href","https://blog.naver.com/sunjoojoo96");
-          }else if($(this).hasClass('link4') == true){
-            link.attr("href","https://smartstore.naver.com/kimsunjoo");
+         
           }
 
           $("#glayLayer2").show();

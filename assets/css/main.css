@@ -1052,8 +1052,8 @@ input, select, textarea {
 				 height: 100%;
 				 padding: 20px;
 				 }
-				 #typeStyle span {color: #fff; font-size: 17px;  width: 600px; letter-spacing: 3px; font-weight: 400;}
-				 #typeStyle{white-space: pre-wrap;}
+				 #typeStyle span {color: #fff; font-size: 207px;  width: 600px; letter-spacing: 3px; font-weight: 400;}
+				 #typeStyle{white-space: pre-wrap; margin-left: -570px; margin-top: 250px;}
 				 #typeStyle strong{font-weight: 500;}
 
 			 #main > .panel.intro header .ps{width: 300px; height: 100px;  margin-left: 530px; margin-top:180px;}
@@ -1173,9 +1173,9 @@ input, select, textarea {
 
 
 
-#overLayer::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer::-webkit-scrollbar-thumb { background-color: #f5e6bf; /*스크롤바의 색상*/ 
+#overLayer::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer::-webkit-scrollbar-thumb { background-color: #F1E17A; /*스크롤바의 색상*/ 
 height: 45%;}   
-#overLayer2::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer2::-webkit-scrollbar-thumb { background-color: #f5e6bf; /*스크롤바의 색상*/ 
+#overLayer2::-webkit-scrollbar { width: 10px; /*스크롤바의 너비*/ } #overLayer2::-webkit-scrollbar-thumb { background-color: #F1E17A; /*스크롤바의 색상*/ 
 	height: 45%;}  
 
 #overLayer::-webkit-scrollbar-track { background-color: #a6a89c; /*스크롤바 트랙 색상*/ }
