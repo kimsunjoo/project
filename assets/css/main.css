@@ -1117,8 +1117,8 @@ input, select, textarea {
 	 #portfolio section, article {margin-bottom: 10px; margin-left: px;}
 	 #portfolio section a{text-decoration: none; color: #fff;}
 	 #portfolio > header h2{color: #252525; font-weight: 500; font-weight: 30px; margin-bottom: 10px;}
-	 #portfolio > header h3{color: #252525; font-weight: 500; font-size: 30px; font-variant: small-caps; letter-spacing: 5px;}
-	 #portfolio > section h4{color: #322f2f; font-weight: 500; font-size: 20px; margin-bottom: -15px; letter-spacing: 3px;}
+	 #portfolio > header h3{color: #252525; font-weight: 600; font-size: 30px; font-variant: small-caps; letter-spacing: 5px;}
+	 #portfolio > section h4{color: #322f2f; font-weight: 500; font-size: 20px; margin-bottom: -15px; letter-spacing: 2px;}
 	 #portfolio > section p{color: #696e6d;font-weight: 300; font-size: 14px; margin-bottom: 50px; }
 
 	 #portfolio >  section > .workbox{position: relative; width: 1340px;  height: 334px; display: flex;}
