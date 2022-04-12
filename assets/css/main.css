@@ -1073,7 +1073,7 @@ input, select, textarea {
 		 ;}
 
 		 #profile > header .profiletxt{
-			 padding: 40px; background-image: url(images/mainbg_yelloBIG.jpg); height: 890px; 
+			 padding: 40px; background-color: #FFF; height: 890px; margin-left: 30px; 
 		 }
 		 
 		 #profile > header .profiletxt .ptxt1{letter-spacing: 2px;
@@ -1081,23 +1081,25 @@ input, select, textarea {
 			 #profile > header .ptxt1  img{height:180px; margin-top: 20px; margin-left: -50px;}
  
 	
-		 #profile > header .ptxt1 >	.ptext1In li{font-size: 15px; line-height: 1.5; font-variant: small-caps;}
+		 #profile > header .ptxt1 >	.ptext1In li{font-size: 15px; line-height: 1.8; font-variant: small-caps;}
 		 #profile > header .ptxt1 >	.ptext1In li:first-child{font-weight: 500;}
 		 #profile > header .ptxt1 > span{color: #FFF; font-size: 30px; }
-		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 20px;  font-weight:400; color: #fff;}
-		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.5; letter-spacing: 3px; margin-bottom: 20px;}
-		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 16px; margin-bottom: 20px; font-variant: normal;}
+		 #profile > header	.ptxt1 > .ptext1In >.fadeinbottom
+		 {padding-bottom: 35px;}
+		 #profile > header	.ptxt1 > .ptext1In li span{font-size: 20px;  font-weight:500; color: #252525;}
+		 #profile > header .ptxt1 >	.ptext1In li .introtxt{font-size: 14px; font-weight: 300; line-height: 1.9; letter-spacing: 3px; margin-bottom: 29px;}
+		 #profile > header	.ptxt1 > .ptext1In li .number, p{font-weight: 300; font-size: 14px; margin-bottom: 20px; font-variant: normal;}
 
 		 #profile > header .ptx2 {float: left; width: 400px;color: #626262; font-size: 12px; line-height: 2; letter-spacing: 3px; margin-top: 150px; margin-left: 100px;}	
 		 #profile > header .ptx2 > .ptext1In li{ margin-bottom: 10px;}
 		 #profile > header .ptx2 > .ptext1In ul > li{margin-bottom: 3px;}
-		 #profile > header .ptx2 > .ptext1In h4{font-size: 20px; font-weight: 500; color: #252525; font-variant: small-caps; letter-spacing: 3px;}
+		 #profile > header .ptx2 > .ptext1In h4{font-size: 20px; font-weight: 600; color: #252525; font-variant: small-caps; letter-spacing: 3px;}
 		 #profile > header .ptx2 > .ptext1In  strong{margin-right: 30px; font-weight: 300; letter-spacing: 3px;}
 
-		 #profile > header .ptx3{float: left; width: 350px;color: #626262; font-size: 12px; line-height: 2; letter-spacing: 3px; margin-top: 150px; }
+		 #profile > header .ptx3{float: left; width: 350px;color: #626262; font-size: 12px; line-height: 2; letter-spacing: 3px; margin-top: 105px; }
 		 #profile > header .ptx3 > .ptext1In li{ margin-bottom: 15px;}
 		 #profile > header .ptx3 > .ptext1In ul > li{margin-bottom: 10px;}
-		 #profile > header .ptx3 > .ptext1In h4{font-size: 20px; font-weight: 500; color: #524e4e; font-variant: small-caps; letter-spacing: 3px;}
+		 #profile > header .ptx3 > .ptext1In h4{font-size: 20px; font-weight: 500; color: #524e4e; font-variant: small-caps; letter-spacing: 3px;padding-top: 40px;}
 		 #profile > header .ptx3 > .ptext1In img{width: 65%; height: 65%;}
 
 		 .fadeinbottom{   
